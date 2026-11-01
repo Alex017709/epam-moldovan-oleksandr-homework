@@ -13,17 +13,18 @@
     "Mariana Dekhtiarenko <mariana_dekhtiarenko@epam.com>"
   ],
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "prebuild": "node scripts/set-env.mjs",
-    "build": "ng build",
-    "postbuild": "node scripts/check-bundle.mjs",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "lint": "ng lint",
-    "lint-fix": "ng lint --fix",
-    "format": "prettier --write \"src/**/*.{ts,html,scss}\""
-  },
+  "ng": "ng",
+  "start": "ng serve",
+  "prebuild": "node scripts/set-env.mjs",
+  "build": "ng build",
+  "postbuild": "node scripts/check-bundle.mjs",
+  "watch": "ng build --watch --configuration development",
+  "test": "ng test",
+  "test:hw": "ng test --watch=false --browsers=ChromeHeadless",
+  "lint": "ng lint",
+  "lint-fix": "ng lint --fix",
+  "format": "prettier --write \"src/**/*.{ts,html,scss}\""
+},
   "private": true,
   "engines": {
     "node": "^22.22.3 || ^24.15.0"

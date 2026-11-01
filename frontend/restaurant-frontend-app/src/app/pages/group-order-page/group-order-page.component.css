@@ -1,0 +1,17 @@
+.group-order-container { max-width: 900px; margin: 0 auto; padding: 24px; font-family: Arial, sans-serif; }
+.header h1 { font-size: 24px; margin-bottom: 8px; }
+.subtitle { color: #666; margin-bottom: 24px; }
+.loading { text-align: center; padding: 40px; font-size: 18px; color: #007bff; }
+.cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-bottom: 32px; }
+.participant-card { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 16px; }
+.owner-card { border-color: #007bff; background-color: #f8f9fa; }
+.card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.name { font-weight: bold; }
+.badge { font-size: 12px; padding: 4px 8px; border-radius: 4px; background: #ffc107; }
+.badge.submitted { background: #28a745; color: #fff; }
+.items-list { list-style: none; padding: 0; margin: 0 0 16px 0; border-top: 1px solid #eee; border-bottom: 1px solid #eee; }
+.items-list li { display: flex; justify-content: space-between; padding: 8px 0; }
+.card-footer { display: flex; justify-content: space-between; align-items: center; }
+.summary-section { background: #e9ecef; padding: 20px; border-radius: 8px; display: flex; flex-direction: column; align-items: flex-end; gap: 16px; }
+.total-amount span { font-weight: bold; color: #28a745; font-size: 22px; }
+.btn-submit { background: #28a745; color: white; border: none; padding: 12px 24px; font-size: 16px; border-radius: 6px; cursor: pointer; font-weight: bold; }
